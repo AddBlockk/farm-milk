@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Blogger Sans Regular"),
+    url("/fonts/Blogger_Sans-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Blogger Sans";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Blogger Sans Light"),
+    url("/fonts/Blogger_Sans-Light.otf") format("otf");
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}

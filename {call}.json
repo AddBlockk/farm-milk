@@ -1,0 +1,136 @@
+{
+  "addresses": [
+    {
+      "name": "Батоша",
+      "address": "ул. Куликова, д. 42",
+      "schedule": "График работы: 09:00 - 19:00"
+    },
+    {
+      "name": "Славянское подворье",
+      "address": "ул. Куликова, д. 42",
+      "schedule": "График работы: 09:00 - 19:00"
+    },
+    {
+      "name": "Батоша",
+      "address": "ул. Куликова, д. 42",
+      "schedule": "График работы: 09:00 - 19:00"
+    },
+    {
+      "name": "Батоша",
+      "address": "ул. Куликова, д. 42",
+      "schedule": "График работы: 09:00 - 19:00"
+    },
+    {
+      "name": "Дубки",
+      "address": "ул. Куликова, д. 42",
+      "schedule": "График работы: 09:00 - 19:00"
+    },
+    {
+      "name": "Батоша",
+      "address": "ул. Куликова, д. 42",
+      "schedule": "График работы: 09:00 - 19:00"
+    }
+  ],
+  "productions": [
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-2.png",
+      "title": "Лёгкий",
+      "description": "СЛИВОЧНЫЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Тильзетер",
+      "description": "ШВЕЙЦАРСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Гауда",
+      "description": "ГОЛЛАНДСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-2.png",
+      "title": "Лёгкий",
+      "description": "СЛИВОЧНЫЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Тильзетер",
+      "description": "ШВЕЙЦАРСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Гауда",
+      "description": "ГОЛЛАНДСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-2.png",
+      "title": "Лёгкий",
+      "description": "СЛИВОЧНЫЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Тильзетер",
+      "description": "ШВЕЙЦАРСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Гауда",
+      "description": "ГОЛЛАНДСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-2.png",
+      "title": "Лёгкий",
+      "description": "СЛИВОЧНЫЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Фермерский",
+      "description": "ДОМАШНИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Тильзетер",
+      "description": "ШВЕЙЦАРСКИЙ"
+    },
+    {
+      "image": "/Ice-cream-1.png",
+      "title": "Гауда",
+      "description": "ГОЛЛАНДСКИЙ"
+    }
+  ]
+}
