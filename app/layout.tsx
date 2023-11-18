@@ -22,14 +22,12 @@ export default function RootLayout({
           href="/fonts/Blogger_Sans-Regular.otf"
           as="font"
           type="font/otf"
-          crossorigin
         />
         <link
           rel="preload"
           href="/fonts/Blogger_Sans-Light.otf"
           as="font"
           type="font/otf"
-          crossorigin
         />
       </Head>
       <body>{children}</body>
