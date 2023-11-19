@@ -4,7 +4,7 @@ import React from "react";
 const Geolocation = () => {
   return (
     <div className="m-auto mb-[108px]">
-      <h1 className="text-[52px] flex justify-center mb-[40px] text-[#43464A]">
+      <h1 className="text-[52px] flex justify-center mb-[40px] text-[#43464A] text-center">
         Ферма молока в Астрахани
       </h1>
       <Image

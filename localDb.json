@@ -104,10 +104,10 @@
     }
   ],
   "menuItems": [
-    { "name": "Продукция", "link": "/products" },
+    { "name": "Продукция", "link": "/productions" },
     { "name": "О бренде", "link": "/about" },
     { "name": "Производство", "link": "/production" },
-    { "link": "/production", "image": "/logo.svg" },
+    { "link": "/", "image": "/logo.svg" },
     { "name": "Рецепты", "link": "/recipes" },
     { "name": "Контакты", "link": "/contacts" },
     { "name": "Где купить", "link": "/where-to-buy" },

@@ -10,7 +10,7 @@ const Header = () => {
     <div className={`mt-[10px] flex z-3 max-w-[1440px] ${inter.className}`}>
       <ul className="justify-between w-[1290px] m-auto flex-wrap text-[#43464A] hidden md:flex px-4">
         {db.menuItems.map((item, index) => (
-          <li key={index} className={`items-center flex mb-[20px]`}>
+          <li key={index} className={`top-10 relative  mb-[20px]`}>
             <Link href={item.link}>
               {item.name}
               {item.image && <img src={item.image} alt={item.name} />}
@@ -18,15 +18,28 @@ const Header = () => {
           </li>
         ))}
       </ul>
-      <ul className="md:hidden flex justify-between w-[100%] px-[10px]">
-        <Image src="/logo.svg" width={250} height={130} alt="menu" />
-        <Image
-          src="/burger.svg"
-          width={42}
-          height={42}
-          alt="menu"
-          className="flex justify-end"
-        />
+      <ul className="md:hidden flex justify-between w-[100%] px-[10px] items-start">
+        <a href="">
+          <Image
+            src="/burger.svg"
+            width={25}
+            height={16}
+            alt="menu"
+            className="flex cursor-pointer  pt-8"
+          />
+        </a>
+        <a href="/">
+          <Image src="/logo.svg" width={250} height={130} alt="menu" />
+        </a>
+        <a href="">
+          <Image
+            src="/search.svg"
+            width={18}
+            height={18}
+            alt="menu"
+            className="flex cursor-pointer pt-8"
+          />
+        </a>
       </ul>
     </div>
   );

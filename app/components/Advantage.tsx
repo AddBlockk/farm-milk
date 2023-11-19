@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 const Advantage = () => {
   return (
-    <div className="">
+    <div className="mb-[100px]">
       <h1 className="text-[36px] mb-[10px] text-[#43464A] text-center md:text-[52px]">
         Преимущество сыров Простоквашино
       </h1>
