@@ -16,6 +16,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        tablet: "640px", // Пример собственной точки останова
+        laptop: "1200px", // Пример собственной точки останова
+        desktop: "1280px", // Пример собственной точки останова
+      },
     },
   },
   plugins: [],

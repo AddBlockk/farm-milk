@@ -30,4 +30,10 @@
 body {
   min-height: 100vh;
 }
-/* test */
+
+.testli div:nth-child(2) {
+  flex: 1 0;
+  border-bottom: 1px dotted #000;
+  height: 1em;
+  margin: 0 -1.5em;
+}
