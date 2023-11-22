@@ -5,7 +5,7 @@ const Recomended = () => {
   return (
     <div className="bg-[url('/bg-productions.png')] bg-no-repeat pb-[70px]">
       <div className="m-auto px-[30px] laptop:px-[75px]">
-        <h1 className="text-[42px] text-[#43464A] font-light flex justify-center pt-[100px] mb-[20px]">
+        <h1 className="text-[42px] text-[#43464A] font-light flex justify-center pt-[100px] mb-[20px] text-center">
           Вам может понравиться
         </h1>
         <div className="flex justify-between gap-[30px] relative flex-wrap">

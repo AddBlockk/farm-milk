@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Inter } from "next/font/google";
 import Statistic from "./Statistic";
+import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 const AboutThing = () => {
   return (
@@ -18,7 +18,7 @@ const AboutThing = () => {
         </li>
       </ul>
       <div className="flex items-center mb-[28px]">
-        <div className="hidden">
+        <div className="hidden laptop:block">
           <a href="/" className="flex items-center gap-[14px] absolute">
             <span className="bg-[#f7f8f8] w-[42px] h-[42px] flex justify-center rounded-full">
               <Image src="/back.svg" alt="back" width={4.5} height={9} />
@@ -32,9 +32,9 @@ const AboutThing = () => {
           Гауда голландский
         </div>
       </div>
-      <div className="flex flex-wrap mx-[30px]">
+      <div className="flex flex-wrap mx-[30px] laptop:mx-0">
         <div
-          className={`px-0 max-w-[50%] flex-[0_0_50%] laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%] laptop:mt-[80px]  ${inter.className}`}
+          className={`px-0 md:max-w-[50%] md:flex-[0_0_50%] mt-[30px] md:mt-0 laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%] laptop:mt-[80px]  ${inter.className} order-2 md:order-1`}
         >
           <div className="text-[18px] font-light mb-[65px]">
             Этот молодой традиционный сыр, созданный по голландскому рецепту,
@@ -46,22 +46,24 @@ const AboutThing = () => {
           <div className="laptop:hidden">
             <Statistic />
           </div>
-          <div className="inline-flex relative">
-            <a
-              href="/"
-              className={`pl-[30px] pr-[40px] py-[14px] w-auto min-w-0  text-[13px] whitespace-nowrap max-w-[100%] tracking-wider uppercase text-white bg-[#0057a5] border-[#0057a5] inline-flex font-medium text-center items-center rounded-[45px] before:mr-[15px] before:inline-block before:w-[16px] before:h-[20px] before:bg-[url('/where-buy.svg')] bg-no-repeat ${inter.className}`}
-            >
-              где купить
-            </a>
-            <a
-              href="/"
-              className="pr-0 inline-flex ml-[20px] items-center text-[13px] font-medium text-[#0057a5] leading-4 uppercase before:mr-[10px] before:block before:w-[18px] before:h-[18px] before:bg-[url('/share.svg')] bg-no-repeat"
-            >
-              поделиться
-            </a>
+          <div className="flex justify-center md:block md:justify-normal">
+            <div className="relative md:inline-flex">
+              <a
+                href="/"
+                className={`pl-[30px] flex justify-center pr-[40px] py-[14px] w-auto min-w-0  text-[13px] whitespace-nowrap max-w-[100%] tracking-wider uppercase text-white bg-[#0057a5] border-[#0057a5] md:inline-flex font-medium text-center items-center rounded-[45px] before:mr-[15px] before:inline-block before:w-[16px] before:h-[20px] before:bg-[url('/where-buy.svg')] bg-no-repeat ${inter.className}`}
+              >
+                где купить
+              </a>
+              <a
+                href="/"
+                className="pr-0 md:ml-[20px] mt-[20px] md:mt-0 flex justify-center items-center text-[13px] font-medium text-[#0057a5] leading-4 uppercase before:mr-[10px] before:block before:w-[18px] before:h-[18px] before:bg-[url('/share.svg')] bg-no-repeat"
+              >
+                поделиться
+              </a>
+            </div>
           </div>
         </div>
-        <div className="px-0 max-w-[50%] flex-[0_0_50%] laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%]">
+        <div className="px-0 max-w-[50%] flex-[0_0_50%] laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%] order-1 md:order-2 contents md:flex">
           <Image
             src="/ice-cream-4.png"
             alt="Гауда голландский"
@@ -71,13 +73,13 @@ const AboutThing = () => {
           />
         </div>
         <div
-          className={`px-0 max-w-[50%] flex-[0_0_50%] laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%] ${inter.className}`}
+          className={`px-0 max-w-[50%] flex-[0_0_50%] laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%] order-3 hidden laptop:block ${inter.className}`}
         >
-          <div className="hidden laptop:block">
+          <div className="">
             <Statistic />
           </div>
         </div>
-        <div className="hidden justify-between w-full laptop:flex">
+        <div className="hidden justify-between w-full laptop:flex order-4">
           <a href="/" className="flex items-center gap-[14px]">
             <span className="bg-[#f7f8f8] w-[42px] h-[42px] flex justify-center rounded-full">
               <Image src="/back.svg" alt="back" width={4.5} height={9} />
