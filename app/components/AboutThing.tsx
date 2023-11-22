@@ -65,7 +65,7 @@ const AboutThing = () => {
         </div>
         <div className="px-0 max-w-[50%] flex-[0_0_50%] laptop:max-w-[33.333%] laptop:flex-[0_0_33.33333%] order-1 md:order-2 contents md:flex">
           <Image
-            src="/ice-cream-4.png"
+            src="/Ice-cream-4.png"
             alt="Гауда голландский"
             width={245}
             height={485}
