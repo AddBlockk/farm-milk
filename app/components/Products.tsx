@@ -62,7 +62,7 @@ const Products = () => {
         <h1 className="text-[52px] text-center mb-[30px]">Продукция</h1>
         <div className="max-w-[1290px] m-auto place-items-center wrapper">
           {db.productions.map((product, index) => (
-            <a key={index} href="">
+            <a key={index} href="/productions">
               <div
                 className={`border-[1px] border-[#E0DFDC] rounded-[20px] w-[270px] bg-white shadow-sm shadow-[#F3F3F1] md:w-[410px]
                 }`}

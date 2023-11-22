@@ -64,25 +64,25 @@ const Header = () => {
         </button>
       </ul>
       <ul className="laptop:hidden flex justify-between w-[100%] px-[10px] items-start">
-        <a href="">
+        <a href="/" className="mt-8">
           <Image
             src="/burger.svg"
             width={25}
             height={16}
             alt="menu"
-            className="flex cursor-pointer  pt-8"
+            className="flex cursor-pointer"
           />
         </a>
         <a href="/">
           <Image src="/logo.svg" width={250} height={130} alt="menu" />
         </a>
-        <a href="">
+        <a href="" className="mt-8">
           <Image
             src="/search.svg"
             width={18}
             height={18}
             alt="menu"
-            className="flex cursor-pointer pt-8"
+            className="flex cursor-pointer"
           />
         </a>
       </ul>
